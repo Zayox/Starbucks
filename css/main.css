@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.navbar{
+  display: flex;
+  opacity: 90%;
+  flex-direction: row;
+  box-shadow: 0 0 10px 0 #383838;
+  height:10vh;
+  width:100vw;
+  z-index: 2;
+}
+
+h1{
+  position: absolute;
+  z-index: 2;
+}
+
+.welcome-txt{
+  color: #fff; !important;
+  font-size: 110px;
+  margin: 20vh 0 0 8vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.bg{
+  position: absolute;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  background-position: 15% 25%;
+  background-repeat: no-repeat;
+  transition-duration: 1s;
+}
+
+
+.starbucks-logo{
+  height:70%;
+  width:auto;
+  margin: 1vh 3vw 0 10vw;
+}
+
+nav .list{
+  display: flex;
+  margin-top: 3vh;
+}
+
+nav li{
+  margin-right: 20px;
+}
+
+.find{
+  border: solid white;
+  color: white;
+  padding: 5px;
+  margin-top: -0.3vh;
+  margin-left: 35vw;
+  margin-right: 5vw;
+}
+
+.find:hover{
+  cursor: pointer;
+}
+
+.btn-signIn, .btn-joinNow{
+  position: relative;
+  top: -1.3vh;
+  border: solid black 1px;
+  background: #fff;
+  border-radius: 100px;
+  margin-top: 1vh;
+  margin-right: 20px;
+  padding: 3px 15px 3px 15px;
+}
+
+.btn-signIn:hover, .btn-joinNow:hover{
+  background: #e5e4e4;
+}
+
+nav a{
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+nav a:hover{
+  color: forestgreen;
+  text-decoration: none;
+}

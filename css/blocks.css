@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mybody{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, rgb(0, 163, 179) 30%, rgb(6, 203, 51) 58%, rgb(224, 35, 205) 77%) no-repeat 25% 0%; !important;
+  background-size: 300vh 250vw;
+}
+
+.blocks-container{
+  margin-top: 120vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block-1{
+  opacity: 0;
+  background: rgb(44, 194, 208);
+  background: linear-gradient(90deg, rgb(17, 131, 167) 38%, rgb(22, 210, 217) 95%);
+  height: 600px;
+  width: 1200px;
+  border-radius: 8px;
+  margin-bottom: 5vh;
+  box-shadow: 0 0 50px black;
+  transition: ease-in-out 1s;
+}
+
+.block-1 img{
+  margin-top: 90px;
+  width: 40%;
+  height:auto;
+  float: right;
+}
+
+.block-1 h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: white;
+  margin-left: 30%;
+  animation-name: txtMove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.block-1 h2 img{
+  position: absolute;
+  height: 120px;
+  width: auto;
+  margin: -1% 0 0 2%;
+}
+
+.block-1 p{
+  margin: 8% 0 0 10%;
+  font-size: 30px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+}
+
+.block-2{
+  opacity: 0;
+  background: rgb(48, 165, 6);
+  background: linear-gradient(90deg, rgb(59, 154, 31) 38%, rgb(35, 224, 82) 95%);
+  height: 600px;
+  width: 1200px;
+  border-radius: 8px;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+  box-shadow: 0 0 50px black;
+  transition: ease-in-out 1s;
+}
+
+.block-2 img{
+  margin-top: 140px;
+  width: 25%;
+  height:auto;
+  float: right;
+}
+
+.block-2 h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: white;
+  padding-top: 30px;
+  margin-left: 30%;
+  animation-name: txtMove;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.block-2 h2 img{
+  position: absolute;
+  height: 120px;
+  width: auto;
+  margin: -1.5% 0 0 2%;
+}
+
+.block-2 p{
+  margin: 8% 0 0 10%;
+  font-size: 30px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+}
+
+
+.block-3{
+  opacity: 0;
+  background: rgb(237,0,255);
+  background: linear-gradient(90deg, rgba(237,0,255,1) 38%, rgb(255, 112, 253) 95%);
+  height: 600px;
+  width: 1200px;
+  border-radius: 8px;
+  margin-bottom: 5vh;
+  box-shadow: 0 0 50px black;
+  transition: ease-in-out 1s;
+}
+
+.block-3 img{
+  margin-top: 140px;
+  margin-right: 50px;
+  width: 25%;
+  height:auto;
+  float: right;
+}
+
+.block-3 h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: white;
+  padding-top: 30px;
+  margin-left: 30%;
+  animation-name: txtMove;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.block-3 h2 img{
+  position: absolute;
+  height: 120px;
+  width: auto;
+  margin: -1.5% 0 0 2%;
+}
+
+.block-3 p{
+  margin: 8% 0 0 10%;
+  font-size: 30px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+}
+
+@keyframes txtMove{
+  50%{margin-left: 30%;}
+  51%{animation-timing-function: steps(1, end);margin-left: 35%;}
+}
